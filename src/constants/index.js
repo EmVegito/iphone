@@ -74,8 +74,8 @@ export const models = [
 ]
 
 export const sizes = [
-  { label: '15.54 cm (6.1")', value: 'small' },
-  { label: '17.00 cm (6.7")', value: 'large' },
+  { label: '6.1"', value: 'small' },
+  { label: '6.7"', value: 'large' },
 ]
 
 export const footerLinks = [

@@ -46,7 +46,7 @@ const Model = () => {
   }, [size])
 
   gsap.to('#heading', {
-    y: 0,
+    y: 1,
     opacity: 1,
   })
 
@@ -95,7 +95,9 @@ const Model = () => {
           </div>
 
           <div className="mx-auto w-full">
-            <p className="text-sm mb-5 text-center">{model.title}</p>
+            <p className="font-semibold text-xl mb-5 text-center">
+              {model.title}
+            </p>
 
             <div className="flex-center">
               <ul className="color-container mx-2">
